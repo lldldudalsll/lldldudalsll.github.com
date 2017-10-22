@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Portfolio
+permalink: /portfolio/
 ---
 
 [folio](./includes/folio/index.html) 반응형 웹사이트
