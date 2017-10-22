@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="34px" viewBox="0 0 30 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Internal 3.5 (25638) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-dropbox</title>
+    <desc>Created with Sketch Internal.</desc>
+    <defs></defs>
+    <g id="@SVG" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos-companies" transform="translate(-2959.000000, 0.000000)">
+            <g id="logo-dropbox" transform="translate(2958.387755, 0.000000)">
+                <rect id="bounds" style="fill-opacity: 0;" fill="#F9FAFB" x="0.612244898" y="0" width="30" height="34"></rect>
+                <path d="M6.71408368,13.6853732 L0.612244898,8.78209151 L9.4372898,3.00008966 L15.6121407,8.17209122 L6.71412458,13.685406 L15.6121704,19.1986312 L9.43731958,24.3709316 L0.612274682,18.5889297 L6.71408368,13.6853732 Z M15.6122598,19.1986312 L21.7874085,24.3709316 L30.6121555,18.5889297 L24.5102759,13.6853164 L15.6122598,19.1986312 Z M30.6122449,8.78200185 L21.7874978,3 L15.6123491,8.17200155 L24.5103652,13.6853164 L30.6122449,8.78200185 Z M15.630309,20.311396 L9.4372898,25.4681551 L6.7873936,23.7320004 L6.7873936,25.6785618 L15.630309,31 L24.4735222,25.6785618 L24.4735222,23.7320004 L21.8239239,25.4681551 L15.630309,20.311396 Z" id="Dropbox" fill="#8F9CB3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

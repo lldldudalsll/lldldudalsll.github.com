@@ -1,0 +1,16 @@
+$small_screen_width: 750px
+$wide_screen_width: 1025px
+$hd_screen_width: 1920px
+
+
+=hd-screen
+  @media screen and (max-width: #{$hd_screen_width}) and (min-width: #{$wide_screen_width})
+    @content
+
+=wide-screen
+  @media screen and (max-width: #{$wide_screen_width - 1}) and (min-width: #{$small_screen_width})
+    @content
+
+=small-screen
+  @media screen and (max-width: #{$small_screen_width - 1})
+    @content

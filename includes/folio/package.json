@@ -1,0 +1,7 @@
+{
+  "name": "make-homepage",
+  "version": "0.0.1",
+  "scripts": {
+    "sass": "node-sass -w resource/sass -o resource/css --output-style expanded --source-map-embed"
+  }
+}
