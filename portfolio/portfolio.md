@@ -10,6 +10,6 @@ permalink: /portfolio/
 
 [sketch](./includes/sketch/index.html) 반응형 웹사이트
 
-SOOBOOK 팀프로젝트
+SOOBOOK 팀프로젝트 (개인책장)
 * [code](https://github.com/lldldudalsll/SOOBOOK/tree/master/soobook)  
 * [youtube 영상](https://www.youtube.com/watch?v=Kz2OAauazLk)
