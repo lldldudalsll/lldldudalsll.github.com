@@ -3,32 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{page.title}}{% endif %} 안녕 혼자왔니?</title>
+    <title>{% if page.title %}{{page.title}} | {% endif %} O.dev</title>
     <!-- <meta name="description" content="{{page.meta}}"> -->
     <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
     <link rel="icon" href="{{site.baseurl}}/skull.png">
-    <style>
-        .footer{
-            width: 100%;
-            margin: 0;
-            position: absolute;
-            bottom: 0;
-            border-top: 1px solid #efdfdf;
-        }
-    </style>
 </head>
 <body>
-    <div class="skip-nav"><a href="#content">본문 바로가기</a></div>
+    <a href="#content" class="skip-nav">본문 바로가기</a>
     <div id="wrapper">
         <header class="header">
-            <h1><a href="{{site.baseurl}}/index.html">My</a> blog</h1>
+            <div class="main-header">
+                <h1><a href="{{site.baseurl}}/index.html">O.dev.log</a></h1>
+                <p>Develop daily</p>
+            </div>
+            {% include g-nav.html %}
         </header>
         <main class="content">
             {{content}}
+            <footer class="footer">
+                {% include footer.html %}
+            </footer>
         </main>
-        <footer class="footer">
-            {% include footer.html %}
-        </footer>
     </div>
 </body>
 </html>
