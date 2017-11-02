@@ -2,15 +2,23 @@
 layout: default
 ---
 
-<style type="text/css">
 
-</style>
-
- <div id="home">
-    <h1>Blog posts</h1>
+<div class="blog__wrapper">
+  <header class="blog__header">
+      <h1>Posts</h1>
+  </header>
+  <div class="list">
     <ul class="posts">
       {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        <li>
+          <a href="{{ post.url }}">
+            <span class="blog__category">{{post.category}}</span>
+            <time datetime="{{ post.date }}">{{post.date | date: "%B %d, %Y" }}</time>
+            <span class="blog__author">by {{post.author}}</span></p> 
+            <p class="blog__title">{{ post.title }}</p>
+          </a>
+        </li>
       {% endfor %}
     </ul>
+  </div>
 </div> 
