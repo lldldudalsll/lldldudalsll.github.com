@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 <div class="blog__wrapper">
@@ -11,7 +10,12 @@ comments: true
     <div class="post-content">
       {{content}}
     </div>
+    {% include disqus.html %}
+
+    <p class="post-meta">
+      <!-- {% if page.comments %} • 
+        <a href="https://lldldudalsll{{ page.url }}#disqus_thread">0 Comments</a>
+      {% endif %} -->
+    </p>
   </div>
 </div>
-
-{% include disqus.html %}

@@ -3,6 +3,7 @@ layout: post
 title:  "11월2일의 일상"
 category: Daily
 author: youngmin
+comments: true
 ---
 
 ##### 블로그

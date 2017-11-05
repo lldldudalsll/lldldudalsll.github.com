@@ -3,6 +3,7 @@ layout: post
 title: Component LifeCycle API (React)
 author: youngmin
 category: Study
+comments: true
 ---
 
 

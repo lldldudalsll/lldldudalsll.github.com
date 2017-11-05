@@ -613,7 +613,7 @@ ol, ul {
 
 /* blog */
 .posts {
-  cursor: pointer;
+  /* cursor: pointer; */
   margin-top: 3rem;
   padding-bottom: 2rem;
 }
@@ -626,11 +626,11 @@ ol, ul {
   border-radius: 5px;
 }
 
-.posts li:hover {
+/* .posts li:hover {
   transform: translateY(-2px);
   transition: 0.5s ease-in;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
-}
+} */
 
 .post-meta {
   display: none;
@@ -650,10 +650,14 @@ time {
   font-size: 10px;
 }
 
-.blog__title {
+.blog__title a {
   color: #181818;
   font-size: 1.7rem;
   font-weight: bold;
+}
+
+.blog__title a:hover {
+  color: #dd4c39;
 }
 
 /* end blog */
@@ -739,7 +743,7 @@ time {
 }
 
 .footer-heading a {
-  color: skyblue;
+  color: #e9c88b;
 }
 /* end footer */
 
