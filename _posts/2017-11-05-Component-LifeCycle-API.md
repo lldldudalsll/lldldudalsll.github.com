@@ -14,7 +14,7 @@ Component가 DOM에서 사라지기 전에 실행되는 method들을 말함.
 
 ### 2. 종류
 
-<!-- ![screensh](./img/lifecycle.png)   -->
+![lifecycle]({{site.url}}/images/lifecycle.png)   
 출처: https://velopert.com/1130  
 
 #### (1)constructor

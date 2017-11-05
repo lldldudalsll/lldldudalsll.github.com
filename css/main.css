@@ -458,6 +458,10 @@ ol, ul {
     padding: 0;
 }
 
+img {
+  width: 50%;
+}
+
 /* hidden content */
 
 .skip-nav{

@@ -11,12 +11,10 @@ layout: default
     <ul class="posts">
       {% for post in site.posts %}
         <li>
-
             <span class="blog__category">{{post.category}}</span>
             <time datetime="{{ post.date }}">{{post.date | date: "%B %d, %Y" }}</time>
             <span class="blog__author">by {{post.author}}</span></p> 
             <p class="blog__title"><a href="{{ post.url }}">{{ post.title }}</a></p>
-          
         </li>
       {% endfor %}
     </ul>
