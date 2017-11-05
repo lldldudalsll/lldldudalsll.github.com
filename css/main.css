@@ -659,9 +659,68 @@ time {
 /* end blog */
 
 /* blog inside */
+
+.post-content {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 3rem 0;
+  border-bottom: 1px solid rgba(0,0,0,.05);;
+}
 code {
-  background-color: #f7f8fa;
-  border-radius: 1px;
+  /* overflow-x: auto;  */
+}
+
+.language-js, .highlighter-rouge {
+  text-align: left;
+  width: 50%;
+  display: inline-block;
+  overflow-x: scroll; 
+  margin-bottom: .5rem;
+  padding: 1px 1rem;
+  background-color: #181818;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.nx {
+  /* color: #f19cb3; */
+  color: #bfbfbf;
+}
+
+.nx:first-child {
+  color: #6f8ead;
+}
+
+.k {
+  color: #6f8ead;
+}
+
+.kc {
+  color: #dd4c39;
+}
+
+.s2 {
+  color: #e3c57c;
+}
+
+.p {
+  color: #bca2bb;
+}
+
+.p:first-child {
+  color: #86c58c;
+}
+
+.kd {
+  color: #e9c88b;
+}
+
+.c1 {
+  color: green;
+}
+
+.o {
+  color: #bfbfbf;
 }
 /* end blog inside */
 

@@ -1,0 +1,23 @@
+{
+  "name": "lldldudalsll.github.com",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "jekyll serve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lldldudalsll/lldldudalsll.github.com.git"
+  },
+  "author": "youngmin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lldldudalsll/lldldudalsll.github.com/issues"
+  },
+  "homepage": "https://github.com/lldldudalsll/lldldudalsll.github.com#readme"
+}
