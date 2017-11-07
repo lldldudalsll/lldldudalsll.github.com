@@ -668,6 +668,10 @@ time {
 
 /* blog inside */
 
+h3 {
+  margin-top: 5rem;
+}
+
 .post {
   padding-bottom: 1rem;
 }
