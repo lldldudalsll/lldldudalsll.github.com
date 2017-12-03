@@ -556,7 +556,7 @@ img {
 .photo {
     width: 130px;
     height: 130px;
-    background-image: url(../about/images/me.png); 
+    background-image: url(../about/images/moon.jpeg); 
     background-size: contain;
     background-position-x: 8px;
     border-radius: 50% 50%;
@@ -677,7 +677,7 @@ h3 {
 }
 
 .post-content {
-  text-align: center;
+  text-align: left;
   margin-bottom: 3rem;
   padding: 3rem 0;
   border-bottom: 1px solid rgba(0, 0, 0, .05);
