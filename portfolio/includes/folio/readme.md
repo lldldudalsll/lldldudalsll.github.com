@@ -1,3 +1,3 @@
-### folio (responsive-webpage)
+### Folio (responsive web-page)
 
-preview: [folio](https://lldldudalsll.github.io/portfolio/includes/folio/index.html).
+preview: [Folio](https://lldldudalsll.github.io/portfolio/includes/folio/index.html).
